@@ -1,0 +1,20 @@
+.banner-after-menu {
+    box-sizing: border-box;
+    color: #000;
+    display: flex;
+    font-family: "Public Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 250px 0;
+    /* background-image: url('img/Modern-house.png'); */
+    background-image: url("//res2.weblium.site/res/5dcebb6eb2b1b00022337fd8/5dd28d0a4208ed00223e2b67_optimized_1920.webp");
+    /* background-color:rgba(0,0,0,.3); */
+    position: static;
+}
+.banner-inner{
+    box-sizing:border-box;
+    display: block;
+    font-weight: 300;
+    /* max-width: 1200px; */
+    padding: 0 40px;
+}
