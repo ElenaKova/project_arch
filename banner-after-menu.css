@@ -6,15 +6,167 @@
     font-size: 17px;
     font-weight: 300;
     padding: 250px 0;
-    /* background-image: url('img/Modern-house.png'); */
     background-image: url("//res2.weblium.site/res/5dcebb6eb2b1b00022337fd8/5dd28d0a4208ed00223e2b67_optimized_1920.webp");
-    /* background-color:rgba(0,0,0,.3); */
-    position: static;
+    /* background-size: cover;
+    position: relative; */
+    /* opacity: 0.3; */
+    /* position: static;
+    background: black;
+    opacity: 0.5;
+    z-index: 1; */
 }
-.banner-inner{
-    box-sizing:border-box;
+
+/* .banner-after-menu::after{
+    background: black;
+    opacity: 0.5;
+    z-index: 1;
+} */
+.banner-inner {
+    box-sizing: border-box;
     display: block;
     font-weight: 300;
     /* max-width: 1200px; */
     padding: 0 40px;
+    height: 500px;
+    width: 100%;
+}
+
+.banner-sec {
+    display: block;
+    font-weight: 300;
+}
+
+.grid-banner {
+    display: flex;
+}
+
+.grid-banner-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.grid-inner {
+    display: flex;
+    flex-basis: 75%;
+    max-width: 75%;
+    margin: 0 15px;
+}
+
+.content-grid {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+}
+
+.info-text h3 {
+    box-sizing: border-box;
+    text-decoration-color: #fff;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-transform: none;
+}
+
+span.text-block {
+    color: #fff;
+    display: block;
+    font-family: "Public Sans", sans-serif;
+    font-size: 90px;
+    letter-spacing: -1.8px;
+    line-height: 99px;
+    position: relative;
+    text-align: left;
+}
+
+span.info-text-subtitle {
+    margin-top: 15px;
+    color: #fff;
+    display: block;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: left;
+}
+
+.grid-empty {
+    display: flex;
+    flex-basis: 25%;
+    max-width: 25%;
+    margin: 0 15px;
+}
+
+.content-empty {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+}
+
+.button-banner {
+    display: block;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.grid-button-banner {
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.grid-inner-button {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    margin: 0 -15px;
+
+}
+
+.grid-button-item {
+    display: flex;
+    padding: 0 15px;
+}
+
+.item-inner-button {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    text-align: left;
+}
+
+.btns-group {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.btns-group-inner {
+    display: block;
+    margin: -10px;
+    text-align: left;
+}
+
+.red-button a{
+    background-color: rgb(233, 51, 20);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-size: 15.4px;
+    font-stretch: 100%;
+    margin: 10px;
+    padding: 14px 43px;
+    text-align: center;
+    width:218.512px;
 }
