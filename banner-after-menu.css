@@ -1,32 +1,21 @@
 .banner-after-menu {
     box-sizing: border-box;
-    color: #000;
     display: flex;
     font-family: "Public Sans", sans-serif;
     font-size: 17px;
     font-weight: 300;
     padding: 250px 0;
-    background-image: url("//res2.weblium.site/res/5dcebb6eb2b1b00022337fd8/5dd28d0a4208ed00223e2b67_optimized_1920.webp");
-    /* background-size: cover;
-    position: relative; */
-    /* opacity: 0.3; */
-    /* position: static;
-    background: black;
-    opacity: 0.5;
-    z-index: 1; */
+    background-image: url("//res2.weblium.site/res/5dcebb6eb2b1b00022337fd8/5dd28d0a4208ed00223e2b67_optimized_1920.webp"); 
+    /* linear-gradient( top,rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)) */
 }
 
-/* .banner-after-menu::after{
-    background: black;
-    opacity: 0.5;
-    z-index: 1;
-} */
-.banner-inner {
+.cont-section-inner {
     box-sizing: border-box;
     display: block;
     font-weight: 300;
-    /* max-width: 1200px; */
-    padding: 0 40px;
+    max-width: 1200px;
+    /* margin: 0 15px; !!! */
+    padding: 0 24px;
     height: 500px;
     width: 100%;
 }
@@ -40,13 +29,13 @@
     display: flex;
 }
 
-.grid-banner-inner {
+.grid-inner {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
 }
 
-.grid-inner {
+.grid-banner-inner {
     display: flex;
     flex-basis: 75%;
     max-width: 75%;
@@ -62,12 +51,12 @@
     text-align: left;
 }
 
-.info-text h3 {
+.info-text h2 {
     box-sizing: border-box;
-    text-decoration-color: #fff;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-transform: none;
+    display: block;
+    position: relative;
+    text-align: left;
+    font-size: 75px;
 }
 
 span.text-block {
@@ -75,8 +64,9 @@ span.text-block {
     display: block;
     font-family: "Public Sans", sans-serif;
     font-size: 90px;
-    letter-spacing: -1.8px;
+    letter-spacing: -1.5px;
     line-height: 99px;
+    font-weight: normal;
     position: relative;
     text-align: left;
 }
@@ -85,10 +75,11 @@ span.info-text-subtitle {
     margin-top: 15px;
     color: #fff;
     display: block;
-    font-family: "Public Sans", sans-serif;
-    font-weight: 400;
+    font-family: Public Sans, sans-serif;
+    font-weight: normal;
     font-size: 19px;
     text-align: left;
+    line-height:28.5px;
 }
 
 .grid-empty {
@@ -96,15 +87,6 @@ span.info-text-subtitle {
     flex-basis: 25%;
     max-width: 25%;
     margin: 0 15px;
-}
-
-.content-empty {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-width: 100%;
-    text-align: left;
 }
 
 .button-banner {
@@ -116,7 +98,7 @@ span.info-text-subtitle {
 .grid-button-banner {
     display: flex;
     font-weight: 300;
-    justify-content: center;
+    justify-content: left;
 }
 
 .grid-inner-button {
@@ -139,7 +121,7 @@ span.info-text-subtitle {
     text-align: left;
 }
 
-.btns-group {
+.item-group {
     display: flex;
     justify-content: flex-start;
     text-align: left;
@@ -149,16 +131,12 @@ span.info-text-subtitle {
     display: block;
     margin: -10px;
     text-align: left;
+    font-weight: 300;
+    margin: -10px;
+    align-items: left;
 }
 
-.red-button a{
-    background-color: rgb(233, 51, 20);
-    background-position-x: 50%;
-    background-position-y: 50%;
-    border-bottom-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-style: none;
+.button {
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -168,5 +146,17 @@ span.info-text-subtitle {
     margin: 10px;
     padding: 14px 43px;
     text-align: center;
-    width:218.512px;
+    height: 53.6px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* outline: none; */
+}
+
+button.red-but {
+    background-color: #e93314;
+    border-color: #e93314;
+}
+
+.tr-white-but {
+    background-color: transparent;
 }

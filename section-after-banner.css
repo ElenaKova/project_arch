@@ -1,0 +1,111 @@
+.cont-collection {
+    background-color: rgb(255, 241, 224);
+    display: block;
+    font-weight: 300px;
+    min-width: 320px;
+    max-width: 1200px;
+    padding: 90px 0;
+    position: relative;
+}
+
+.cont-section-inner {
+    box-sizing: border-box;
+    display: block;
+    font-weight: 300;
+    max-width: 1200px;
+    /* margin: 0 15px; !!! */
+    padding: 0 24px;
+    height: 500px;
+    width: 100%;
+}
+
+.collection-inner-block {
+    display: flex;
+
+    font-weight: 300;
+    justify-content: left;
+    position: relative;
+}
+
+.grid-collection {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+/* .grid-collection-inner {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 15px;
+    text-align: left;
+    justify-content: center;
+} */
+
+.red-house img {
+    height: 50px;
+    width: 50px;
+}
+
+.titel-2 p {
+    display: block;
+    font-family: Public Sans, sans-serif;
+    font-size: 28px;
+    font-stretch: 100%;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: left;
+}
+
+span.box-title-2 {
+    display: block;
+    font-size: 28px;
+    font-stretch: 100%;
+    /* font-weight: 600; */
+    text-align: left;
+    color: #000;
+}
+
+span.text-title-2 {
+    font-family: Public Sans, sans-serif;
+    font-size: 28px;
+    font-stretch: 100%;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+}
+
+.box-red-line {
+    display: flex;
+    font-size: 17px;
+    justify-content: flex-start;
+    padding: 15px 0;
+    text-align: left;
+}
+
+.red-line {
+    content: "";
+    color: #e93314;
+    display: block;
+    font-weight: 300;
+    height: 2px;
+    width: 16%;
+    text-align: left;
+}
+
+.box-subtitle-title-2 p {
+    display: block;
+    font-weight: thin;
+}
+
+span.text-subtitle-title-2 {
+    color: #000;
+    font-family: Public Sans, sans-serif;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-weight: thin;
+    letter-spacing: normal;
+    text-align: left;
+    line-height:28.5px;
+}
