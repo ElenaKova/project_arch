@@ -1,10 +1,10 @@
-section.cont-collection {
+.cont-collection {
     background-color: rgb(248, 245, 242);
     display: block;
-    font-weight: 300px;
-    min-width: 320px;
+    /* font-weight: 300px;
+    min-width: 320px; */
     padding: 90px 0;
-    /* position: relative; */
+    justify-content: center;
 }
 
 .cont-section-inner {
@@ -16,30 +16,58 @@ section.cont-collection {
     padding: 0 24px;
     height: 500px;
     width: 100%;
+    justify-content: center;
 }
 
-.box-section{
+.box-section {
     display: block;
 }
 
-.box-section-3-items{
+.box-section-3-items {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     flex-direction: row;
 }
+
 @media (max-width:990px) {
-    .box-section-3-items{
+    .box-section-3-items {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
     .collection-inner-block-end {
         display: flex;
+        flex-wrap: wrap;
         padding: 0 15px;
         margin-top: 30px;
         font-weight: 300;
-        justify-content: left;
+        justify-content: center;
         position: relative;
+        flex-basis: 50%;
+        max-width: 50%;
     }
+    .collection-inner-block {
+        display: flex;
+        padding: 0 15px;
+        font-weight: 300;
+        justify-content: center;
+        position: relative;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+.collection-inner-block-end {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    font-weight: 300;
+    justify-content: center;
+    position: relative;
+    flex-basis: 50%;
+    max-width: 50%;
 }
 
 .collection-inner-block {
@@ -48,6 +76,8 @@ section.cont-collection {
     font-weight: 300;
     justify-content: left;
     position: relative;
+    flex-basis: 50%;
+    max-width: 50%;
 }
 
 .grid-collection {
@@ -154,7 +184,7 @@ span.text-subtitle-title-2 {
     font-weight: 300;
     margin: -10px;
     align-items: left;
-} 
+}
 
 .button {
     color: #fff;
@@ -172,17 +202,17 @@ span.text-subtitle-title-2 {
     /* outline: none; */
 }
 
-button.learn{
-    background-color:transparent;
+button.learn {
+    background-color: transparent;
     text-align: center;
-    color:#4c6386;
-margin: 0;
-border: 0;
-padding:0;
+    color: #4c6386;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
-span.arrow img{
-    color:#4c6386;
+span.arrow img {
+    color: #4c6386;
     height: 24px;
     width: 24px;
 }
