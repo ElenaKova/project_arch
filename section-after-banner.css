@@ -1,27 +1,50 @@
-.cont-collection {
-    background-color: rgb(255, 241, 224);
+section.cont-collection {
+    background-color: rgb(248, 245, 242);
     display: block;
     font-weight: 300px;
     min-width: 320px;
-    max-width: 1200px;
     padding: 90px 0;
-    position: relative;
+    /* position: relative; */
 }
 
 .cont-section-inner {
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     font-weight: 300;
-    max-width: 1200px;
     /* margin: 0 15px; !!! */
     padding: 0 24px;
     height: 500px;
     width: 100%;
 }
 
+.box-section{
+    display: block;
+}
+
+.box-section-3-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+@media (max-width:990px) {
+    .box-section-3-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .collection-inner-block-end {
+        display: flex;
+        padding: 0 15px;
+        margin-top: 30px;
+        font-weight: 300;
+        justify-content: left;
+        position: relative;
+    }
+}
+
 .collection-inner-block {
     display: flex;
-
+    padding: 0 15px;
     font-weight: 300;
     justify-content: left;
     position: relative;
@@ -43,9 +66,9 @@
     justify-content: center;
 } */
 
-.red-house img {
-    height: 50px;
-    width: 50px;
+.icon-red-small img {
+    height: 70px;
+    width: 70px;
 }
 
 .titel-2 p {
@@ -94,7 +117,7 @@ span.text-title-2 {
     text-align: left;
 }
 
-.box-subtitle-title-2 p {
+span.box-subtitle-title-2 p {
     display: block;
     font-weight: thin;
 }
@@ -107,5 +130,59 @@ span.text-subtitle-title-2 {
     font-weight: thin;
     letter-spacing: normal;
     text-align: left;
-    line-height:28.5px;
+    line-height: 30.6px;
+}
+
+/* .item-inner-btn-learn {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    text-align: left;
+} */
+
+.group-learn {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 26.25px;
+}
+
+.btns-group-inner {
+    display: block;
+    margin: -10px;
+    text-align: left;
+    font-weight: 300;
+    margin: -10px;
+    align-items: left;
+} 
+
+.button {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-size: 15.4px;
+    font-stretch: 100%;
+    margin: 10px;
+    padding: 14px 43px;
+    text-align: center;
+    height: 53.6px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* outline: none; */
+}
+
+button.learn{
+    background-color:transparent;
+    text-align: center;
+    color:#4c6386;
+margin: 0;
+border: 0;
+padding:0;
+}
+
+span.arrow img{
+    color:#4c6386;
+    height: 24px;
+    width: 24px;
 }
