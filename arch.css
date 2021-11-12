@@ -1,8 +1,9 @@
-body{
+body {
     display: block;
     margin: 0px;
     line-height: 1;
 }
+
 .block-logo-inner {
     box-sizing: border-box;
     display: block;
@@ -169,12 +170,22 @@ span.link-item {
     margin: -5px -10px 0;
 }
 
-.social-icons{
+.social-icons {
     display: flex;
-    margin:  5px 10px 0;
+    margin: 5px 10px 0;
     font-weight: normal;
 }
-img.social-icons{
+
+img.social-icons {
     height: 25px;
     width: 25px;
 }
+
+/* .wrapper {
+    box-sizing: border-box;
+    display: block;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+} */
