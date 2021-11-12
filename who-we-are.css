@@ -1,0 +1,64 @@
+.who-we-are {
+    box-sizing: border-box;
+    display: block;
+    padding: 90px 0 50px;
+    height: auto;
+}
+
+.section-who-inner {
+    box-sizing: border-box;
+    display: block;
+    font-weight: 300;
+    max-width: 1200px;
+    padding: 0 24px;
+}
+
+.who-content {
+    box-sizing: border-box;
+    display: block;
+    font-weight: 300;
+}
+
+.box-who {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.box-who-inner {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 30.6px;
+    margin: 0 -15px;
+}
+
+.item-who-top {
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 100%;
+    padding: 0 15px;
+}
+
+.box-who-top {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+}
+
+.picture-who {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+}
+
+.inner-pic-who img {
+object-fit: cover;
+background-color: transparent;
+}

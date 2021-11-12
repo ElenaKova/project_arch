@@ -7,14 +7,12 @@
     justify-content: center;
 }
 
-.cont-section-inner {
-    box-sizing: border-box;
+.cont-section-inner-collection {
+    box-sizing:border-box;
     display: flex;
     flex-wrap: wrap;
     font-weight: 300;
-    /* margin: 0 15px; !!! */
     padding: 0 24px;
-    height: 500px;
     width: 100%;
     justify-content: center;
 }
