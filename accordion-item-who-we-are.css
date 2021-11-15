@@ -1,6 +1,19 @@
 button.accordion-button.collapsed {
     padding: 20px 0 ;
+    background-color:transparent;
 }
 .accordion-body{
+    background-color:transparent;
     padding: 20px 0;
 }
+#text{
+    font-size: 19px;
+    line-height:25.84px;
+    font-weight: 500;
+}
+ #text-sub-accord{
+     color: #000000A6;
+     font-weight: 400;
+     font-size: 17px;
+     line-height:30.6px;
+ }

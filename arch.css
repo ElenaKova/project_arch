@@ -4,6 +4,98 @@ body {
     line-height: 1;
 }
 
+/* span.logo-text {
+    color: black;
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+span.red-dot {
+    color: #e93314;
+    font-family: "Public Sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+} */
+.container-navbar {
+    background-color: #fff;
+    padding: 30px 40px;
+}
+
+nav.navbar navbar-expand-lg navbar-light bg-light {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.block-section-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    line-height: 16px;
+    justify-content: flex-start;
+}
+
+.text-style-header{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+}
+.section-menu {
+    text-align: center;
+    font-family: PT Sans, sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.section-menu :hover {
+    text-decoration: none;
+    color: #df0004;
+}
+
+.container-fluid {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+li.icon-menu{
+    margin: 0 10px;
+}
+.right-icons {
+    align-items: center;
+    display: flex;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.social-icons {
+    display: flex;
+    margin:  0;
+    font-weight: normal;
+}
+
+img.social-icons {
+    height: 25px;
+    width: 25px;
+}
+
+/* 
+.line-after-red::after {
+    content: "";
+    display: inline-block;
+    text-align: left;
+    margin: 15px 0;
+    width: 80px;
+    height: 2px;
+    background-color: #df0004;
+}
+
 .block-logo-inner {
     box-sizing: border-box;
     display: block;
@@ -49,21 +141,6 @@ body {
 
 .logo-text-content a {
     text-decoration: none;
-}
-
-span.logo-text {
-    color: black;
-    text-decoration: none;
-    font-family: "Public Sans", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-}
-
-span.red-dot {
-    color: #e93314;
-    font-family: "Public Sans", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
 }
 
 .sec-center-logo {
@@ -144,7 +221,7 @@ span.link-item {
 .list-item a {
     color: #000;
     cursor: pointer;
-    /* display: block; */
+    display: block; 
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     font-stretch: 100%;
@@ -168,18 +245,9 @@ span.link-item {
     flex-wrap: wrap;
     justify-content: flex-end;
     margin: -5px -10px 0;
-}
+} */
 
-.social-icons {
-    display: flex;
-    margin: 5px 10px 0;
-    font-weight: normal;
-}
 
-img.social-icons {
-    height: 25px;
-    width: 25px;
-}
 
 /* .wrapper {
     box-sizing: border-box;

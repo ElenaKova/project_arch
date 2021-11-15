@@ -98,6 +98,7 @@
     font-weight: 600;
     margin-top: 20px;
     text-align: left;
+    line-height: 1.27;
 }
 
 span.box-title-2 {
@@ -142,11 +143,11 @@ span.box-subtitle-title-2 p {
 }
 
 span.text-subtitle-title-2 {
-    color: #000;
+    color: #0d0d12cc;
     font-family: Public Sans, sans-serif;
     font-size: 17px;
+    font-weight: 300;
     font-stretch: 100%;
-    font-weight: thin;
     letter-spacing: normal;
     text-align: left;
     line-height: 30.6px;
