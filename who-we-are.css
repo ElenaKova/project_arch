@@ -146,17 +146,17 @@ span.just-text {
     text-align: left;
 }
 
-p.title-who{
+p.title-who {
     display: block;
     position: relative;
 }
 
-span.box-title-who{
+span.box-title-who {
     display: block;
 }
 
-span.text-title-who{
-    color:#000;
+span.text-title-who {
+    color: #000;
     display: block;
     font-family: "Public Sans", sans-serif;
     font-size: 38px;
@@ -166,16 +166,17 @@ span.text-title-who{
     text-align: left;
 }
 
-p.subtitle-who{
+p.subtitle-who {
     display: block;
     position: relative;
 }
-span.box-subtitle-who{
+
+span.box-subtitle-who {
     display: block;
 }
 
-span.text-subtitle-who{
-    color:#000;
+span.text-subtitle-who {
+    color: #000;
     display: block;
     font-family: "Public Sans", sans-serif;
     font-size: 17px;
@@ -183,4 +184,10 @@ span.text-subtitle-who{
     line-height: 30.6px;
     font-weight: 300;
     text-align: left;
+}
+
+.tr-white-but {
+    background-color: transparent;
+    color: #e93314;
+    border: 2px solid #e93314;
 }
