@@ -1,8 +1,6 @@
 .cont-collection {
     background-color: rgb(248, 245, 242);
     display: block;
-    /* font-weight: 300px;
-    min-width: 320px; */
     padding: 90px 0;
     justify-content: center;
 }
@@ -87,14 +85,6 @@
     margin: 0 -15px;
 }
 
-/* .grid-collection-inner {
-    display: flex;
-    flex-basis: 100%;
-    margin: 0 15px;
-    text-align: left;
-    justify-content: center;
-} */
-
 .icon-red-small img {
     height: 70px;
     width: 70px;
@@ -161,13 +151,6 @@ span.text-subtitle-title-2 {
     text-align: left;
     line-height: 30.6px;
 }
-
-/* .item-inner-btn-learn {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    text-align: left;
-} */
 
 .group-learn {
     display: flex;

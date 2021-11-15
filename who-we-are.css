@@ -1,8 +1,11 @@
 .who-we-are {
     box-sizing: border-box;
-    display: block;
+    /* display: block;
     padding: 90px 0 50px;
-    height: auto;
+    height: auto; */
+    display: block;
+    padding: 90px 0 50px;;
+    justify-content: center;
 }
 
 .section-who-inner {
@@ -14,9 +17,9 @@
 }
 
 .who-content {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: block;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 
 .box-who {
@@ -28,7 +31,7 @@
 @media (max-width: 990px) {
     .box-who {
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: center;
     }
 }
@@ -56,18 +59,22 @@
 }
 
 .picture-who {
-
     box-sizing: border-box;
     display: block;
     text-align: left;
 }
+.pic-who{
+    display:block;
+    max-width: 100%;
+    position: relative;
+    text-align: left;
+}
 
-img.inner-pic-who  {
+img.inner-pic-who {
     box-sizing: border-box;
-    height: auto;
-    width: auto;
-
-    /* display: block; */
+    height: 750px;
+    width: 670px;
+    text-align: left;
     background-color: transparent;
 }
 
@@ -81,6 +88,23 @@ img.inner-pic-who  {
 @media (max-width: 767px) {
     .item-who-middle {
         margin-top: 50px;
+    }
+    img.inner-pic-who {
+        box-sizing: border-box;
+        height: 550px;
+        width: 470px;
+        text-align: left;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 470px) {
+    img.inner-pic-who {
+        box-sizing: border-box;
+        height: 300px;
+        width: 350px;
+        text-align: left;
+        background-color: transparent;
     }
 }
 
