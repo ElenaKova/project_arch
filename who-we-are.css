@@ -1,8 +1,11 @@
 .who-we-are {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     padding: 90px 0 50px;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-who-inner {
@@ -38,18 +41,32 @@
     margin: 0 -15px;
 }
 
+@media(max-width: 767px) {
+    .box-who-inner {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
 .item-who-top {
+    align-items: center;
     box-sizing: border-box;
     display: flex;
     padding: 0 15px;
     flex-basis: 50%;
     max-width: 50%;
 }
-
+@media(max-width: 767px){
+    .item-who-top{
+        max-width: 100%;
+    }
+}
 .box-who-top {
     display: flex;
-    /* flex-basis: 50%;
-    max-width: 50%; */
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
@@ -69,9 +86,9 @@
 }
 
 img.inner-pic-who {
+
     box-sizing: border-box;
-    height: 750px;
-    width: 670px;
+    max-width: inherit;
     text-align: left;
     object-fit: cover;
     object-position: 23.346% 50%;
@@ -81,8 +98,7 @@ img.inner-pic-who {
 @media (max-width: 767px) {
     img.inner-pic-who {
         box-sizing: border-box;
-        height: 550px;
-        width: 470px;
+        max-width: inherit;
         text-align: left;
         background-color: transparent;
     }
@@ -91,8 +107,7 @@ img.inner-pic-who {
 @media (max-width: 470px) {
     img.inner-pic-who {
         box-sizing: border-box;
-        height: 300px;
-        width: 350px;
+        max-width: inherit;
         text-align: left;
         background-color: transparent;
     }
@@ -107,11 +122,11 @@ img.inner-pic-who {
     justify-content: flex-end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .item-who-middle {
         margin-top: 50px;
+        max-width: 100%;
     }
-
 }
 
 .box-who-middle {
