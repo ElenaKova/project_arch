@@ -11,35 +11,35 @@
     display: flex;
     flex-wrap: wrap;
     font-weight: 300;
-    padding: 0 24px;
+    padding: 0 40px;
     width: 100%;
     justify-content: center;
 }
 
-header.portfolio {
+header.header-block {
     box-sizing: border-box;
     display: block;
 }
 
-.portfolio-grid-box {
+.header-grid-box {
     display: flex;
     justify-content: center;
 }
 
-.portfolio-grid-box-inner {
+.header-grid-box-inner {
     display: flex;
     flex-wrap: wrap;
     font-weight: 300;
     margin: 0 15px;
 }
 
-.portfolio-header-grid-item {
+.header-grid-item {
     display: flex;
     flex-basis: 100%;
     padding: 0 15px;
 }
 
-.portfolio-item-inner {
+.header-item-inner {
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
@@ -47,7 +47,7 @@ header.portfolio {
     text-align: center;
 }
 
-.name-section-portfolio p {
+.name-section p {
     display: block;
     font-family: "Public Sans",
         sans-serif;
@@ -55,7 +55,7 @@ header.portfolio {
     margin: 0;
 }
 
-span.name-section-portfolio {
+span.name-section {
     color: #000;
     display: block;
     font-family: "Public Sans", sans-serif;
@@ -65,7 +65,7 @@ span.name-section-portfolio {
     text-align: center;
 }
 
-.title-portfolio p {
+.title-block p {
     display: block;
     font-family: "Public Sans",
         sans-serif;
@@ -73,7 +73,7 @@ span.name-section-portfolio {
     margin: 0;
 }
 
-span.text-title-portfolio {
+span.text-title {
     color: #000;
     display: block;
     font-family: "Public Sans", sans-serif;
@@ -84,8 +84,12 @@ span.text-title-portfolio {
 }
 
 .cards-portfolio {
+    box-sizing:border-box;
     display: block;
+    font-family: "Public Sans",
+    sans-serif;
     margin-top: 45px;
+     justify-content: center;
 }
 
 .box-cards-portfolio {
@@ -136,9 +140,8 @@ span.text-title-portfolio {
 
 picture.image-of-item {
      display: block;
-    min-height: 32px;
+    /* min-height: 32px; */
     max-width: 100%;
-    
 }
 
 img.style-image-of-card{

@@ -1,0 +1,79 @@
+.inspired {
+    display: block;
+    background-color: #f8f5f2;
+    font-stretch: 100;
+    padding: 120px 0;
+}
+
+.section-inner-inspired {
+    display: block;
+    font-stretch: 100%;
+    padding: 0 40px;
+    margin: 0 20.8px;
+}
+
+.content-inspired {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 50px;
+}
+
+.cont-section-inner-collection-inspired {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    /* padding: 0; */
+    /* width: 100%; */
+    justify-content: center;
+}
+
+.box-section-3-items-inspired {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+
+}
+
+.box-section-ins {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.collection-inner-block-ins {
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 0 15px;
+}
+
+.picture-item-inspired {
+    display: block;
+}
+
+picture.item-inspired {
+    display: block;
+    /* min-height: 32px; */
+    max-width: 100%;
+}
+
+.group-captions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+span.text-offer-group{
+    display: block;
+    padding-right: 10px;
+}
+
+.text-offer-red{
+    color: #e93314;
+    display: block;
+    font-size: 12px;
+    font-family: "Public Sans",
+    sans-serif;
+    font-weight: 500;
+}
