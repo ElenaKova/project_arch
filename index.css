@@ -257,3 +257,18 @@ span.link-item {
     overflow-y: hidden;
     position: absolute;
 } */
+
+.line {
+    text-align: left;
+    display: flex;
+    padding: 0 15px;
+
+}
+
+.red-line{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 16%;
+    background-color: #e93314;
+}

@@ -1,5 +1,6 @@
 .inspired {
-    display: block;
+    display: flex;
+    flex-wrap: nowrap;
     background-color: #f8f5f2;
     font-stretch: 100;
     padding: 120px 0;
@@ -14,7 +15,7 @@
 
 .content-inspired {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     margin-top: 50px;
 }
 
@@ -23,28 +24,50 @@
     display: flex;
     flex-wrap: wrap;
     font-weight: 300;
-    /* padding: 0; */
-    /* width: 100%; */
     justify-content: center;
 }
 
 .box-section-3-items-inspired {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .box-section-ins {
     display: flex;
-    flex-wrap: wrap;
     margin: 0 -15px;
 }
 
 .collection-inner-block-ins {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     flex-basis: 33.33%;
     padding: 0 15px;
+    justify-content: center;
+}
+
+@media(max-width:767px) {
+    .collection-inner-block-ins {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .section-inner-inspired {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-stretch: 100%;
+        padding: 0 40px;
+        margin: 0;
+    }
+    .content-inspired {
+        display: flex;
+        margin-top: 50px;
+    }
 }
 
 .picture-item-inspired {
@@ -57,23 +80,49 @@ picture.item-inspired {
     max-width: 100%;
 }
 
-.group-captions{
+.group-captions {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-top: 20px;
 }
 
-span.text-offer-group{
+span.text-offer-group {
     display: block;
     padding-right: 10px;
 }
 
-.text-offer-red{
+.text-offer-red {
     color: #e93314;
     display: block;
     font-size: 12px;
     font-family: "Public Sans",
-    sans-serif;
+        sans-serif;
     font-weight: 500;
+}
+
+.text-offer-black {
+    color: #000000a6;
+    display: block;
+    font-size: 12px;
+    font-family: "Public Sans",
+        sans-serif;
+    font-weight: 500;
+}
+
+span.box-subtitle-inspired {
+    margin-top: 15px;
+    display: block;
+    font-weight: thin;
+}
+
+span.text-subtitle-inspired {
+    color: #0d0d12cc;
+    font-family: Public Sans, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    font-stretch: 100%;
+    letter-spacing: normal;
+    text-align: left;
+    line-height: 30.6px;
 }
