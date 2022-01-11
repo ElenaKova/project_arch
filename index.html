@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="mission.css">
     <link rel="stylesheet" href="inspired.css">
+    <link rel="stylesheet" href="form-email.css">
 
 </head>
 
@@ -545,12 +546,40 @@
             </div>
         </div>
     </section>
+    <section class="form-email">
+        <div class="inner-form-e">
+            <div class="item-promo">
+                <div class="inner-item-promo">
+                    <p class="promo">
+                        Want to See More of Our Works?
+                    </p>
+                    <p class="sub-promo">
+                        Complete the form and subscribe to our newsletter with great design ideas!
+                    </p>
+                </div>
+            </div>
+            <div class="item-email-group">
+                <div class="form-subs">
+                    <form class="form-subscribe" action="https://formspree.io/f/mbjqewew" method="POST">
+                        <label class="box-sub-email">
+                            <input class="place-subs" type="email" name="email" placeholder="Email">
+                        </label>
+                        <button class="button-subs" id="my-form-button" type="submit">Subscribe</button>
+                        <p id="contact-status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
     <footer>
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="js/subscribe.js"></script>
 </body>
 
 </html>
