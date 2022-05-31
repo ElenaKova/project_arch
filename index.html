@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="inspired.css">
     <link rel="stylesheet" href="form-email.css">
     <link rel="stylesheet" href="collab.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
 </head>
 
@@ -575,7 +579,7 @@
     <section class="collab">
         <div class="collab-inner">
             <div class="collab-item">
-                <div class="collab-item-inner">
+                <div class="collab-item-inner" id="orange">
                     <div class="item-group">
                         <div class="icon-small">
                             <img src="img/partnership.svg" alt="icon partnership"></img>
@@ -596,7 +600,8 @@
                                     <div class="item-inner-button">
                                         <div class="item-group">
                                             <div class="btns-group-inner">
-                                                <a href="#"><button class="button red-but">Get in touch</button></a>
+                                                <a href="#"><button class="button red-but" id="transparent-collab">Get
+                                                        in touch</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -606,8 +611,8 @@
                     </div>
                 </div>
             </div>
-            <div class="collab-item">
-                <div class="collab-item-inner">
+            <div class="collab-item" id="collab-2">
+                <div class="collab-item-inner" id="yellow">
                     <div class="item-group">
                         <div class="icon-small">
                             <img src="img/projects.svg" alt="icon projects"></img>
@@ -628,7 +633,8 @@
                                     <div class="item-inner-button">
                                         <div class="item-group">
                                             <div class="btns-group-inner">
-                                                <a href="#"><button class="button red-but">Discuss a
+                                                <a href="#"><button class="button red-but"
+                                                        id="transparent-collab">Discuss a
                                                         project</button></a>
                                             </div>
                                         </div>
@@ -637,6 +643,58 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sl-logo">
+        <div class="slider">
+            <div class="slider-item">
+                <img src="img/bosch.png" alt="bosch">
+            </div>
+            <div class="slider-item">
+                <img src="img/knauf.png" alt="knauf">
+            </div>
+            <div class="slider-item">
+                <img src="img/ikea.png" alt="ikea">
+            </div>
+            <div class="slider-item">
+                <img src="img/liebherr.png" alt="liebherr">
+            </div>
+            <div class="slider-item">
+                <img src="img/rehau.png" alt="rehau">
+            </div>
+            <div class="slider-item">
+                <img src="img/cate.png" alt="cate">
+            </div>
+            <div class="slider-item">
+                <img src="img/ceresit.png" alt="ceresit">
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="inner-team">
+            <div class="header-team">
+                <span id="">Meet Us</span>
+                <span id="">Our Dedicated Team</span>
+            </div>
+        </div>
+
+        <div class="items-team">
+            <div class="column-items-team">
+                <div class="item-team">
+                    <div id="inner">
+                        <div id="image-item">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item-team">
+
+                </div>
+                <div class="item-team">
+
                 </div>
             </div>
         </div>
@@ -650,6 +708,19 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="js/subscribe.js"></script>
+    <!-- <script src="js/carousel.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(".slider").slick({
+            // dots: true,
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1
+        });
+    </script>
+
 </body>
 
 </html>
