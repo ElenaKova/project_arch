@@ -1,9 +1,10 @@
-.sl-logo{
+.sl-logo {
     padding: 70px 0;
 }
+
 .slider {
     width: 100%;
-    margin: 100px auto;
+    /* margin: 100px auto; */
 }
 
 .slick-slide {
@@ -14,7 +15,7 @@
     width: 100%;
 }
 
-.slick-prev:before,
+/* .slick-prev:before,
 .slick-next:before {
     color: black;
 }
@@ -31,4 +32,4 @@
 
 .slick-current {
     opacity: 1;
-}
+} */

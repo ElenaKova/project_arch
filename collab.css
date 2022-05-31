@@ -19,7 +19,7 @@
         sans-serif;
 }
 
-.collab-item-inner#orange{
+.collab-item-inner#orange {
     display: flex;
     background-image: url(/img/orange_collab.png);
     flex-direction: column;
@@ -28,6 +28,7 @@
     flex-grow: 1;
     padding: 120px 80px;
 }
+
 .collab-item-inner#yellow {
     display: flex;
     background-image: url(/img/yellow_collab.png);
