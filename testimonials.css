@@ -1,0 +1,22 @@
+.block {
+    display: block;
+    padding: 60px 90px;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: center;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* line-height: 30.6px; */
+    text-align: center;
+}
+
+.section-content {
+    display: block;
+    margin-top: 45px;
+}

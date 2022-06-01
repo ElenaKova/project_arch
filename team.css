@@ -3,13 +3,13 @@
     padding-bottom: 60px;
 }
 
-.inner-team {
+.inner-header {
     padding: 0 15px;
     display: block;
     max-width: 100%;
 }
 
-.header-team {
+.content-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -108,7 +108,7 @@ item-team#name-of-item #position #sub-item {
     font-weight: 500;
 }
 
-#sub-item{
+#sub-item {
     font-size: 17px;
     font-weight: 300;
 }
