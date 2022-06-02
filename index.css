@@ -3,108 +3,11 @@ body {
     margin: 0px;
     line-height: 1;
 }
+
 .collapse navbar-collapse .navbar-nav>li>a {
     color: rgb(0, 0, 0);
 }
 
-/* span.logo-text {
-    color: black;
-    text-decoration: none;
-    font-family: "Public Sans", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-}
-
-span.red-dot {
-    color: #e93314;
-    font-family: "Public Sans", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-} */
-
-/* .navbar-collapse {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    flex-basis: 100%;
-    flex-grow: 0;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-navbar {
-    background-color: #222323;
-    padding: 30px 40px;
-}
-
-nav.navbar navbar-expand-lg navbar-light bg-light {
-    padding: 0;
-}
-
-.navbar {
-    padding: 0;
-}
-
-.navbar-nav {
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.block-section-menu {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-}
-
-.right-icons {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        flex-direction: row;
-        align-content: center;
-        align-items: center;
-}
-
-.section-menu {
-    text-align: center;
-    font-family: PT Sans, sans-serif;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0 15px;
-}
-
-.section-menu :hover {
-    text-decoration: underline;
-    color: #df0004;
-} */
-
-
-/* .container-fluid {
-    background-color: #222323;
-} */
-
-
-
-/* .wrapper {
-    box-sizing: border-box;
-    display: block;
-    overflow-wrap: break-word;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: absolute;
-} */
 
 .line {
     text-align: left;
@@ -119,4 +22,27 @@ nav.navbar navbar-expand-lg navbar-light bg-light {
     height: 2px;
     width: 16%;
     background-color: #e93314;
+}
+
+.block {
+    display: block;
+    padding: 60px 90px;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: center;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* line-height: 30.6px; */
+    text-align: center;
+}
+
+.section-content {
+    display: block;
+    margin-top: 45px;
 }

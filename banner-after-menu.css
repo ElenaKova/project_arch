@@ -8,6 +8,8 @@
     background-image: url("//res2.weblium.site/res/5dcebb6eb2b1b00022337fd8/5dd28d0a4208ed00223e2b67_optimized_1920.webp");
 }
 
+
+
 .cont-section-inner {
     box-sizing: border-box;
     display: block;
@@ -25,7 +27,7 @@
 }
 
 .grid-banner {
-    display: flex;
+    display: block;
 }
 
 .grid-inner {
@@ -45,7 +47,7 @@
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     max-width: 100%;
     text-align: left;
 }
@@ -148,7 +150,6 @@ span.info-text-subtitle {
     height: 53.6px;
     border: 2px solid #fff;
     border-radius: 5px;
-    /* outline: none; */
 }
 
 button.red-but {
@@ -158,4 +159,12 @@ button.red-but {
 
 .tr-white-but {
     background-color: transparent;
+}
+
+@media(max-width: 767px) {
+    span.text-block {
+        font-size: 60px;
+        line-height: 99px;
+
+    }
 }
