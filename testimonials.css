@@ -1,6 +1,6 @@
 .block {
     display: block;
-    padding: 60px 90px;
+    padding: 60px 40px 90px;
 }
 
 .inner-header {
@@ -19,4 +19,74 @@
 .section-content {
     display: block;
     margin-top: 45px;
+}
+
+.block-review {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.block-review img {
+    height: 50px;
+    width: 50px;
+    color: #e93314;
+}
+
+.style-but-c {
+    display: flex;
+    flex: 1 1 767px;
+    flex-direction: column;
+    align-items:center;
+}
+
+.btns-group-inner-c {
+    display: block;
+    margin: -10px;
+    font-weight: 300;
+    margin: -10px;
+    justify-content: center;
+}
+
+#btn-w-bord{
+    border-color: #fff;
+    color: #000;
+    background-color:#fff;
+}
+
+#what-to-work{
+    background-color:#e93314;
+}
+
+#sub {
+    font-size: 17px;
+    color: #0d0d12cc;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 19px;
+}
+
+#where {
+    font-size: 15px;
+    color: #0d0d12cc;
+}
+span#small-text-w {
+    font-size: 19px;
+    color: #fff;
+}
+
+span#big-text-w {
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media(max-width:767px){
+    .style-but-c {
+        
+        align-items: center;
+    }
 }

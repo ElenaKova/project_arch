@@ -78,23 +78,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="button-banner">
-                    <div class="grid-button-banner">
-                        <div class="grid-inner-button">
-                            <div class="grid-button-item">
-                                <div class="item-inner-button">
-                                    <div class="item-group">
-                                        <div class="btns-group-inner">
-                                            <a href="#"><button class="button red-but">Request a quote</button></a>
-                                            <a href="#"><button class="button tr-white-but">Learn more</button></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            </header>
+            <footer id="two-buttons">
+                <div class="style-but-l">
+                    <div class="btns-group-inner-l">
+                        <a href="#"><button class="button red-but">Request a quote</button></a>
+                        <a href="#"><button class="button tr-white-but">Learn more</button></a>
                     </div>
                 </div>
-            </header>
+            </footer>
         </div>
     </section>
     </header>
@@ -757,13 +749,13 @@
                         </div>
                         <div class="social-icon-team">
                             <div id="icon">
-                                <img src="img/facebook-icon-black.svg">
+                                <a href="#"><img src="img/facebook-icon-black.svg"></a>
                             </div>
                             <div id="icon">
-                                <img src="img/instagram-icon-black.svg">
+                                <a href="#"><img src="img/instagram-icon-black.svg"></a>
                             </div>
                             <div id="icon">
-                                <img src="img/youtube-icon-black.svg">
+                                <a href="#"><img src="img/youtube-icon-black.svg"></a>
                             </div>
                         </div>
                     </div>
@@ -771,7 +763,7 @@
             </div>
         </div>
     </section>
-    <section class="block">
+    <section class="block" id="testimonials">
         <header>
             <div class="inner-header">
                 <div class="content-header">
@@ -781,9 +773,97 @@
             </div>
         </header>
         <div class="section-content">
-            <div class="inner-content">
-
+            <div class="slider-review">
+                <div class="block-review">
+                    <p id="sub">
+                        I am grateful to ARCH. for the work done. Since I travel a lot for work, I wanted to make my
+                        apartment so that it resembled a hotel in some way. The designers made alterations which brought
+                        additional functionality to the rooms and helped to use every centimeter of the apartment’s
+                        area. I've been living in my renewed apartment for 3 years with total comfort.
+                    </p>
+                    <div>
+                        <img src="img/quote.svg" alt="red-quote">
+                    </div>
+                    <p id="name">
+                        Jonas Milestone
+                    </p>
+                    <p id="where">
+                        2-room apartment in Alabama
+                    </p>
+                </div>
+                <div class="block-review">
+                    <p id="sub">
+                        ARCH developed a design project for our new boutique hotel in Florida. The offered style was
+                        exactly what we had expected! The managers led us through a conciliation process within a week,
+                        so the construction began very quickly, and everything was ready in half a year, to the smallest
+                        details!
+                    </p>
+                    <div>
+                        <img src="img/quote.svg" alt="red-quote">
+                    </div>
+                    <p id="name">
+                        James Corden
+                    </p>
+                    <p id="where">
+                        BetterStay Hotel, CA
+                    </p>
+                </div>
+                <div class="block-review">
+                    <p id="sub">
+                        The designers sensed our mood and created our perfect paradise! They implemented the entire
+                        project in our absence, and we could only enjoy the result! Great use of experimental materials,
+                        perfect textures and incredible style in everything! Careful attitude to the clients' budget and
+                        trusted professionals leading the entire project!
+                    </p>
+                    <div>
+                        <img src="img/quote.svg" alt="red-quote">
+                    </div>
+                    <p id="name">
+                        Samantha Smith
+                    </p>
+                    <p id="where">
+                        3-floor mansion, NY
+                    </p>
+                </div>
+                <div class="block-review">
+                    <p id="sub">
+                        A couple of years ago I turned to ARCH. for the design project of my 2-room apartment with a
+                        zero understanding of what I want ... Thanks to the professionalism of the designers and their
+                        creative approach, we were able to quickly determine the concept, colors and draw up the
+                        project! It was a pleasure to work, everything was quick and clear.
+                    </p>
+                    <div>
+                        <img src="img/quote.svg" alt="red-quote">
+                    </div>
+                    <p id="name">
+                        Luke Peterson
+                    </p>
+                    <p id="where">
+                        California, residential project
+                    </p>
+                </div>
             </div>
+        </div>
+    </section>
+    <section class="global-section" id="what-to-work">
+        <div class="section-inner">
+            <header>
+                <div class="inner-header">
+                    <div class="content-header">
+                        <span id="big-text-w">What to Work With Us</span>
+                        <span id="small-text-w">Contact us to discuss your project </span>
+                        <span id="small-text-w">and get the most fair offer.</span>
+                    </div>
+                </div>
+            </header>
+            <footer id="two-buttons">
+                <div class="style-but-c">
+                    <div class="btns-group-inner-c">
+                        <a href="#"><button id="btn-w-bord" class="button red-but">Request a quote</button></a>
+                        <a href="#"><button class="button tr-white-but">Our pricing</button></a>
+                    </div>
+                </div>
+            </footer>
         </div>
     </section>
 
@@ -804,7 +884,14 @@
             slidesToShow: 4,
             slidesToScroll: 1
         });
+        $('.slider-review').slick({
+            dots: true,
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 1
+        });
     </script>
+
 
 </body>
 

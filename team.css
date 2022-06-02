@@ -59,7 +59,7 @@ span.header-team {
     justify-content: center;
     text-align: center;
     padding: 15px;
-    border-top: 5px solid rgb(197, 0, 0);
+    border-top: 5px solid #e93314;
     border-radius: 7px;
     box-shadow: rgba(62, 65, 75, 0.1) 0px 6px 12px 0px 0 6px 12px 0 rgba(62, 65, 75, .1);
 }
@@ -120,7 +120,7 @@ item-team#name-of-item #position #sub-item {
 }
 
 #icon {
-
+    margin: 0 10px;
     height: 25px;
     width: 25px;
 }
@@ -148,5 +148,11 @@ item-team#name-of-item #position #sub-item {
     .section-inner {
         padding: 0 40px;
         margin: 0;
+        align-items:center;
+        justify-content: center;
+    }
+    #two-buttons{
+        align-items:center;
+        justify-content: center;
     }
 }

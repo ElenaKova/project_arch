@@ -13,13 +13,11 @@
     justify-content: center;
     flex-direction: row;
 }
-.collection-inner-block{
-margin: 0 7px;
+
+.collection-inner-block {
+    margin: 0 7px;
 }
 
-/* @media (max-width:990px) {
-    
-} */
 
 .grid-collection {
     display: flex;
@@ -62,24 +60,6 @@ span.text-title-2 {
     text-align: left;
     color: #000;
 }
-
-/* .box-red-line {
-    display: flex;
-    font-size: 17px;
-    justify-content: flex-start;
-    padding: 15px 0;
-    text-align: left;
-}
-
-.red-line {
-    content: "";
-    color: #e93314;
-    display: block;
-    font-weight: 300;
-    height: 2px;
-    width: 16%;
-    text-align: left;
-} */
 
 span.box-subtitle-title-2 p {
     display: block;
