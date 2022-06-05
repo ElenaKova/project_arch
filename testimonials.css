@@ -38,25 +38,25 @@
     display: flex;
     flex: 1 1 767px;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 
 .btns-group-inner-c {
     display: block;
-    margin: -10px;
+    /* margin: -10px; */
     font-weight: 300;
-    margin: -10px;
+    margin: 10px;
     justify-content: center;
 }
 
-#btn-w-bord{
+#btn-w-bord {
     border-color: #fff;
     color: #000;
-    background-color:#fff;
+    background-color: #fff;
 }
 
-#what-to-work{
-    background-color:#e93314;
+#what-to-work {
+    background-color: #e93314;
 }
 
 #sub {
@@ -73,6 +73,7 @@
     font-size: 15px;
     color: #0d0d12cc;
 }
+
 span#small-text-w {
     font-size: 19px;
     color: #fff;
@@ -84,9 +85,16 @@ span#big-text-w {
     color: #fff;
 }
 
-@media(max-width:767px){
+@media(max-width:767px) {
     .style-but-c {
-        
+
+        align-items: center;
+    }
+
+    .btns-group-inner-c {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
 }

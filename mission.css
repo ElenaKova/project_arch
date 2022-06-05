@@ -10,35 +10,6 @@
     padding: 0 40px;
 }
 
-.header-mission {
-    display: block;
-}
-
-.grid-header-mission {
-    display: flex;
-    justify-content: center;
-}
-
-.box-mission {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 -15px;
-
-}
-
-.grid-content-mission {
-    display: flex;
-    flex-basis: 100%;
-    padding: 0 15px;
-}
-
-.inner-content-mission {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
-}
 
 .text-title-mission {
     font-size: 50px;
@@ -57,4 +28,20 @@
     font-size: 50px;
     color: #e93314;
     font-family: Public Sans, sans-serif;
+}
+
+@media(max-width:767px) {
+    .mission-inner {
+        display: block;
+        font-stretch: 100%;
+        padding: 0 auto;
+    }
+
+    .text-title-mission {
+        font-size: 30px;
+    }
+
+    .red-text {
+        font-size: 30px;
+    }
 }

@@ -81,3 +81,19 @@ button.red-but#transparent-collab {
         margin-top: 20px;
     }
 }
+
+@media(max-width:500px) {
+    p.text-centre span {
+        font-weight: 400;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    button.red-but#transparent-collab {
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        font-size: x-small;
+    }
+
+}

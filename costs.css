@@ -7,7 +7,7 @@
 
 .content-table {
     display: flex;
-    padding: 40px;
+    padding: 40px ;
     flex-wrap: nowrap;
     justify-content: space-between;
 }

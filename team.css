@@ -1,11 +1,14 @@
 .global-section {
     padding: 120px 0 60px;
-    
+
 }
 
 .section-inner {
-    padding: 0 40px;
-    margin: 0 18px;
+    /* padding: 0 40px;
+    margin: 0 18px; */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .inner-header {
@@ -130,7 +133,7 @@ item-team#name-of-item #position #sub-item {
     .column-items-team {
         display: flex;
         flex-wrap: wrap;
-        padding: 15px 0;
+        padding: 15px auto;
         justify-content: center;
         align-items: center;
     }
@@ -146,13 +149,14 @@ item-team#name-of-item #position #sub-item {
     }
 
     .section-inner {
-        padding: 0 40px;
-        margin: 0;
-        align-items:center;
+        /* padding: 0 40px;
+        margin: 0; */
+        align-items: center;
         justify-content: center;
     }
-    #two-buttons{
-        align-items:center;
+
+    #two-buttons {
+        align-items: center;
         justify-content: center;
     }
 }

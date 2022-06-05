@@ -123,3 +123,9 @@ span.arrow img {
     height: 24px;
     width: 24px;
 }
+
+@media(max-width:500px) {
+    .btns-group-inner {
+        font-size: x-small;
+    }
+}

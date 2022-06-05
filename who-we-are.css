@@ -198,8 +198,9 @@ span.text-subtitle-who {
     }
 
     .section-who-inner {
-        padding: 0 40px;
+        padding: 0 auto;
     }
+    
 }
 
 @media (max-width: 990px) {

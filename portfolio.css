@@ -6,47 +6,6 @@
     padding: 60px 0;
 }
 
-.section-portfolio-inner {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: 300;
-    padding: 0 40px;
-    width: 100%;
-    justify-content: center;
-}
-
-header.header-block {
-    box-sizing: border-box;
-    display: block;
-}
-
-.header-grid-box {
-    display: flex;
-    justify-content: center;
-}
-
-.header-grid-box-inner {
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: 300;
-    margin: 0 15px;
-}
-
-.header-grid-item {
-    display: flex;
-    flex-basis: 100%;
-    padding: 0 15px;
-}
-
-.header-item-inner {
-    display: flex;
-    flex-basis: 100%;
-    flex-direction: column;
-    max-width: 100%;
-    text-align: center;
-}
-
 .name-section p {
     display: block;
     font-family: "Public Sans",
