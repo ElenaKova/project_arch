@@ -44,11 +44,12 @@ span.text-title {
 
 .cards-portfolio {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     font-family: "Public Sans",
         sans-serif;
-    margin-top: 45px;
     justify-content: center;
+    padding: 0 40px;
+    margin: 45px 20.8px 0;
 }
 
 .box-cards-portfolio {
@@ -75,6 +76,8 @@ span.text-title {
 @media(max-width:991px) {
     .cards-portfolio {
         max-width: 100%;
+            padding: 0 40px;
+            margin: 0 20.8px;
     }
 
     .item-portfolio-box {

@@ -4,7 +4,7 @@
 }
 
 .section-inner {
-    /* padding: 0 40px;
+    /* padding: 0 24px;
     margin: 0 18px; */
     width: 100%;
     max-width: 1200px;
@@ -133,7 +133,7 @@ item-team#name-of-item #position #sub-item {
     .column-items-team {
         display: flex;
         flex-wrap: wrap;
-        padding: 15px auto;
+        padding: 15px 24px;
         justify-content: center;
         align-items: center;
     }
@@ -149,10 +149,15 @@ item-team#name-of-item #position #sub-item {
     }
 
     .section-inner {
-        /* padding: 0 40px;
+        /* padding: 0 24px;
         margin: 0; */
         align-items: center;
         justify-content: center;
+    }
+    .inner-header {
+        padding: 0 24px;
+        display: block;
+        max-width: 100%;
     }
 
     #two-buttons {

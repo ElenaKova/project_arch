@@ -1,0 +1,33 @@
+.section-inner-drop {
+    display: flex;
+    flex-basis: 50% 50%;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inner-header#form-sub-map{
+    padding: 24px;
+}
+
+.global-section#drop {
+    background-color: #f8f5f2;
+}
+
+.place-subs#style-label-drop {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.box-sub-email#form-sub {
+    margin-bottom: 24px;
+    text-align: left;
+    
+}
+
+span.box-sub-email {
+    font-size: 17px;
+    font-weight: 300;
+}

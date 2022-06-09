@@ -97,4 +97,9 @@ span#big-text-w {
         flex-direction: column;
         align-items: center;
     }
+
+    .block {
+        display: block;
+        padding: 30px 24px 45px;
+    }
 }

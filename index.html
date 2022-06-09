@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="team.css">
     <link rel="stylesheet" href="testimonials.css">
     <link rel="stylesheet" href="costs.css">
+    <link rel="stylesheet" href="drop-us.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
@@ -889,6 +890,46 @@
             </div>
         </div>
     </section>
+    <section class="global-section" id="drop">
+        <div class="section-inner-drop">
+            <div class="inner-header" id="form-sub-map">
+                <div class="content-header">
+                    <span id="small-text">Drop us a line</span>
+                    <span id="big-text">Let's work togethr!</span>
+                    <div class="item-email-group">
+                        <div class="form-subs">
+                            <form class="form-subscribe" action="https://formspree.io/f/mbjqewew" method="POST">
+                                <label class="box-sub-email" id="form-sub">
+                                    <span>Your message*</span>
+                                    <input id="style-label-drop" class="place-subs" type="message" name="message"
+                                        required placeholder="Enter your message">
+                                </label>
+                                <label class="box-sub-email" id="form-sub">
+                                    <span>Phone number*</span>
+                                    <input id="style-label-drop" class="place-subs" type="tel" name="tel"
+                                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                                        placeholder="Enter your phone number">
+                                </label>
+                                <label class="box-sub-email" id="form-sub">
+                                    <span>Email*</span>
+                                    <input id="style-label-drop" class="place-subs" type="email" name="email" required
+                                        placeholder="Email">
+                                </label>
+                                <button class="button-subs" id="my-form-button" type="submit">Send a request</button>
+                                <p id="contact-status"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.3419555615246!2d11.600319829844432!3d48.12292851276463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf5ade027307%3A0xa18544f30b41b09f!2sDesign%20Offices%20M%C3%BCnchen%20Atlas!5e0!3m2!1sru!2sit!4v1654796422525!5m2!1sru!2sit"
+                    width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
 
     <footer>
 
@@ -905,7 +946,7 @@
             dots: true,
             infinite: true,
             slidesToShow: 4,
-            slidesToScroll: 1
+            slidesToScroll: 2
         });
         $('.slider-review').slick({
             dots: true,
