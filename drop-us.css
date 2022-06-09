@@ -2,8 +2,8 @@
     display: flex;
     flex-basis: 50% 50%;
     flex-direction: row;
-    max-width: 1200px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .inner-header#form-sub-map{
@@ -30,4 +30,18 @@
 span.box-sub-email {
     font-size: 17px;
     font-weight: 300;
+}
+
+.iframe{
+    position: absolute;
+    width: 100%;
+}
+
+@media(max-width:767px){
+    .section-inner-drop {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 }
