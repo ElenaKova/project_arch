@@ -1,13 +1,13 @@
 .section-inner-drop {
     display: flex;
-    flex-basis: 50% 50%;
     flex-direction: row;
     margin: 0 auto;
-    justify-content: center;
+    /* justify-content: space-between; */
 }
 
-.inner-header#form-sub-map{
+.inner-header#form-sub-map {
     padding: 24px;
+    width: 50%;
 }
 
 .global-section#drop {
@@ -24,7 +24,7 @@
 .box-sub-email#form-sub {
     margin-bottom: 24px;
     text-align: left;
-    
+
 }
 
 span.box-sub-email {
@@ -32,16 +32,38 @@ span.box-sub-email {
     font-weight: 300;
 }
 
-.iframe{
-    position: absolute;
-    width: 100%;
+.map {
+    position: relative;
+    width: 50%;
 }
 
-@media(max-width:767px){
+iframe {
+    position: inherit;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:767px) {
     .section-inner-drop {
         display: flex;
         flex-basis: 100%;
         flex-direction: column;
         margin: 0 auto;
+    }
+    iframe {
+        position: inherit;
+        top: 0px;
+        left: 0px;
+        
+        height: 100%;
+    }
+    .inner-header#form-sub-map {
+        /* padding: 24px; */
+        width: 100%;
+    }
+    .map {
+        width: 100%;
     }
 }
