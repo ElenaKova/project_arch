@@ -1,3 +1,10 @@
+:root {
+    --red: #e93314;
+    --white: #ffffff;
+    --vanil: rgb(248, 245, 242);
+    --text-dark: #333333;
+}
+
 body {
     display: block;
     margin: 0px;
@@ -21,7 +28,7 @@ body {
     display: block;
     height: 2px;
     width: 16%;
-    background-color: #e93314;
+    background-color: var(--red);
 }
 
 .global-section {
