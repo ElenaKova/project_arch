@@ -8,7 +8,7 @@
 body {
     display: block;
     margin: 0px;
-    line-height: 1;
+    /* line-height: 1; */
 }
 
 .collapse navbar-collapse .navbar-nav>li>a {

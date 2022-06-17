@@ -55,6 +55,7 @@ span.header-team {
 
 .item-team {
     align-content: center;
+    align-items: center;
     display: flex;
     margin: 0 7px;
     flex-direction: column;
@@ -67,13 +68,45 @@ span.header-team {
     box-shadow: rgba(62, 65, 75, 0.1) 0px 6px 12px 0px 0 6px 12px 0 rgba(62, 65, 75, .1);
 }
 
-#inner {
+div#inner {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    height: 70px;
+    width: 70px;
     /* border-top: 5px solid rgb(197, 0, 0);
     padding: 43px 27px; */
 }
+
+div#first-photo {
+    background-image: url(/img/first-wom.webp);
+    object-position: 68.168% 11.047%;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+div#second-photo {
+    background-image: url(/img/man.webp);
+    object-fit: cover;
+    object-position: 47.991% 15.95%;
+    /* position: absolute; */
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+div#third-photo {
+    background-image: url(/img/wom-top.webp);
+    object-fit: cover;
+    object-position: 90.626% 16.954%;
+    /* position: absolute; */
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
 
 img#image-item {
 
@@ -154,6 +187,7 @@ item-team#name-of-item #position #sub-item {
         align-items: center;
         justify-content: center;
     }
+
     .inner-header {
         padding: 0 24px;
         display: block;
